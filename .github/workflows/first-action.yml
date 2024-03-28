@@ -8,4 +8,9 @@ jobs:
         run: echo "Hello Bro !!!!"
       - name: Print goodbye
         run: echo "GoodBye !!!!"
+      - name: Print Multiple Shell commands at once
+        run: |
+            echo "First Command"
+            echo "Second Command"
+      
   
